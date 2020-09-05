@@ -18,6 +18,7 @@ import TextField from '@material-ui/core/TextField';
 import Switch from '@material-ui/core/Switch';
 import Zoom from '@material-ui/core/Zoom';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Navbar from './navbar'
 
 const currencies = [
   {
@@ -71,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
     margin: 'auto',
     display: 'block',
     color: '#FF1493',
-    backgroundColor: '#A0D7D3'
+    // backgroundColor: '#A0D7D3'
 },
 bullet: {
   display: 'inline-block',
@@ -85,7 +86,11 @@ pos: {
   marginBottom: 12,
 },
 }));
+
 export default function ClippedDrawer() {
+
+
+  
   const classes = useStyles();
   const [currency, setCurrency] = React.useState('EUR');
 
@@ -102,13 +107,7 @@ export default function ClippedDrawer() {
     
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <Typography variant="h6" noWrap>
-            Muskan
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <Navbar/>
       <main className={classes.content}>
 
         <Toolbar />
@@ -135,12 +134,12 @@ export default function ClippedDrawer() {
         <CardMedia 
           component="img"
           height="250"
-          image="https://i.pinimg.com/originals/34/fc/59/34fc5951c32208952b1cea9d8164bce6.jpg"
+          image="https://www.artbarblog.com/wp-content/uploads/2017/09/paper_bag_stars.jpg"
           
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Pen Stand
+          PAINTED PAPER PINWHEELS
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Built with buttons and IceCream stiks found in homes. Alot of students are liking this project.By Samar Singh
@@ -171,12 +170,11 @@ export default function ClippedDrawer() {
         <CardMedia 
           component="img"
           height="250"
-          image="https://i.pinimg.com/1200x/0d/aa/18/0daa18862ba6529fec0bd0e4a814d812.jpg"
-          
+          image="https://i.pinimg.com/originals/34/fc/59/34fc5951c32208952b1cea9d8164bce6.jpg"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Doll
+          Pen Stand
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
           Built with buttons and IceCream stiks found in homes. Alot of students are liking this project.By Rakul
