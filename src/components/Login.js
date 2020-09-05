@@ -5,6 +5,7 @@ export default class Signup extends Component {
   render() {
     return (
       <div className="main">
+          <Navbar/>
         <section className="signup">
           <div className="container">
             <div className="signup-content">
@@ -71,7 +72,7 @@ export default class Signup extends Component {
                         <span></span>
                       </span>
                       I agree all statements in{" "}
-                      <a href="https://www.nechiclassifieds.com/images/signup-image.jpg" className="term-service">
+                      <a href="https://www.artbarblog.com/wp-content/uploads/2017/09/paper_bag_stars.jpg" className="term-service">
                         Terms of service
                       </a>
                     </label>
