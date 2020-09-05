@@ -21,9 +21,6 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 
 export default function ClippedDrawer() {
-
-
-  
   const classes = useStyles();
   const [currency, setCurrency] = React.useState('EUR');
 
@@ -47,16 +44,6 @@ export default function ClippedDrawer() {
           </Typography>
         </Toolbar>
       </AppBar>
-      {/* <Drawer
-        className={classes.drawer}
-        variant="permanent"
-        classes={{
-          paper: classes.drawerPaper,
-        }}
-      >
-        <Toolbar />
-      
-      </Drawer> */}
       <main className={classes.content}>
 
         <Toolbar />
