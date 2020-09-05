@@ -4,7 +4,7 @@ import {useRef} from 'react';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-
+import Navbar from './navbar';
 const pieOptions = {
     title: "Report",
     pieHole: 0.4,
@@ -63,6 +63,7 @@ export default function Report({count}){
   ,[count]);
     return (
       <div className="App">
+          <Navbar/>
       <Paper className={classes.paper} >
       <br />
       <Grid container spacing={2} className={classes.heading}>
