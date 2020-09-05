@@ -14,19 +14,9 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
-
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import HomeIcon from '@material-ui/icons/Home';
-import PersonIcon from '@material-ui/icons/Person';
-import Drawer from '@material-ui/core/Drawer';
-import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import CssBaseline from '@material-ui/core/CssBaseline';
-
+import Navbar from './navbar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
       margin: 'auto',
       display: 'block',
       color: '#FF1493',
-      backgroundColor: '#A0D7D3',
+      // backgroundColor: '#A0D7D3',
       marginLeft: 100
   },
   
@@ -83,60 +73,7 @@ export default function ComplexGrid({setCount}) {
      
     <div className={classes.root}>
     <CssBaseline />
-    <AppBar position="fixed" className={classes.appBar}>
-      <Toolbar>
-        <Typography variant="h6" noWrap>
-          Muskan
-        </Typography>
-      </Toolbar>
-    </AppBar>
-    {/* <Drawer
-      className={classes.drawer}
-      variant="permanent"
-      classes={{
-        paper: classes.drawerPaper,
-      }}
-    >
-      <Toolbar />
-      <div className={classes.drawerContainer}>
-      <ListItem button>
-        <ListItemIcon>
-          <PersonIcon />
-        </ListItemIcon>
-        <ListItemText primary="Login " />
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon>
-          <PersonIcon />
-        </ListItemIcon>
-        <ListItemText primary="Signup " />
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon>
-          <HomeIcon />
-        </ListItemIcon>
-        <ListItemText primary="Home Section" />
-        </ListItem>  
-      <ListItem button>
-        <ListItemIcon>
-          <NoteIcon />
-        </ListItemIcon>
-        <ListItemText primary="Planning Section" />
-      </ListItem>        
-      <ListItem button>
-        <ListItemIcon>
-          <InboxIcon />
-        </ListItemIcon>
-        <ListItemText primary="Submission Section" />
-      </ListItem>
-      <ListItem button>
-        <ListItemIcon>
-          <StarIcon />
-        </ListItemIcon>
-        <ListItemText primary="Report Section" />
-      </ListItem>
-      </div>
-    </Drawer> */}
+    <Navbar/>
     <main className={classes.content}>
    <Toolbar />
 
@@ -181,20 +118,20 @@ export default function ComplexGrid({setCount}) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="https://i.pinimg.com/originals/34/fc/59/34fc5951c32208952b1cea9d8164bce6.jpg" />
+              <img className={classes.img} alt="complex" src="https://www.artbarblog.com/wp-content/uploads/2017/09/paper_bag_stars.jpg" />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">
-                  Pen stand
+                PAINTED PAPER PINWHEELS
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  Saket Sharma
+                Kunal Gupta
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  Class 5
+                  Class 6
                 </Typography>
               </Grid>
               <Grid item>
@@ -256,10 +193,10 @@ export default function ComplexGrid({setCount}) {
                   Pen stand
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  Saket Sharma
+                  Shreya Asthana
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  Class 5
+                  Class 6
                 </Typography>
               </Grid>
               <Grid item>
@@ -311,17 +248,17 @@ export default function ComplexGrid({setCount}) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="https://i.pinimg.com/originals/34/fc/59/34fc5951c32208952b1cea9d8164bce6.jpg" />
+              <img className={classes.img} alt="complex" src="https://i.pinimg.com/1200x/0d/aa/18/0daa18862ba6529fec0bd0e4a814d812.jpg" />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">
-                  Pen stand
+                  Doll
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  Saket Sharma
+                  Aditi Goyal
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
                   Class 5
