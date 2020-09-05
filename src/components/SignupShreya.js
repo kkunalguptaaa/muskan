@@ -11,7 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-
+import Navbar from './navbar';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://source.unsplash.com/random)',
+    backgroundImage: 'url(https://www.artbarblog.com/wp-content/uploads/2017/09/paper_bag_stars3-1.jpg)',
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
@@ -45,17 +45,13 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
 }));
-registerUser=()=>{
-  const email=document.getElementById("email").value;
-  const pass=document.getElementById("password").value;
-  localStorage.setItem(email,pass);
-}
 export default function SignupShreya() {
   const classes = useStyles();
 
   return (
     
     <div className={classes.root}>
+        <Navbar/>
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
@@ -134,7 +130,6 @@ export default function SignupShreya() {
           
           <Button
             type="submit"
-            onClick={registerUser}
             fullWidth
             variant="contained"
             color="primary"
