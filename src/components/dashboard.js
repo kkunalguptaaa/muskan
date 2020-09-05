@@ -10,7 +10,8 @@ import ListItem from '@material-ui/core/ListItem';
 import Toolbar from '@material-ui/core/Toolbar';
 import Drawer from '@material-ui/core/Drawer';
 import { makeStyles } from '@material-ui/core/styles';
-
+import { Route,NavLink  } from "react-router-dom";
+import "./dashboard.css";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -66,50 +67,59 @@ export default function Dashboard() {
         classes={{
           paper: classes.drawerPaper,
         }}
-      >
+        >
         <Toolbar />
         <div className={classes.drawerContainer}>
-
-<ListItem button>
-  <ListItemIcon>
-    <PersonIcon />
-  </ListItemIcon>
-  <ListItemText primary="Login " />
-</ListItem>
-<ListItem button>
-  <ListItemIcon>
-    <PersonIcon />
-  </ListItemIcon>
-  <ListItemText primary="Signup " />
-</ListItem>
-<ListItem button>
-  <ListItemIcon>
-    <HomeIcon />
-  </ListItemIcon>
-  <ListItemText primary="Home Section" />
-  </ListItem>  
-<ListItem button>
-  <ListItemIcon>
-    <NoteIcon />
-  </ListItemIcon>
-  <ListItemText primary="Planning Section" />
-</ListItem>        
-<ListItem button>
-  <ListItemIcon>
-    <InboxIcon />
-  </ListItemIcon>
-  <ListItemText primary="Submission Section" />
-</ListItem>
-<ListItem button>
-  <ListItemIcon>
-    <StarIcon />
-  </ListItemIcon>
-  <ListItemText primary="Report Section" />
-</ListItem>
-</div>
-      
-      </Drawer>
-       
+            <NavLink to="/login" exact>
+                <ListItem button>
+                <ListItemIcon>
+                    <PersonIcon />
+                </ListItemIcon>
+                <ListItemText primary="Login " />
+                </ListItem>
+            </NavLink>
+            <NavLink to="/signup" exact>
+                <ListItem button>
+                <ListItemIcon>
+                    <PersonIcon />
+                </ListItemIcon>
+                <ListItemText primary="Signup " />
+                </ListItem>
+            </NavLink>
+            <NavLink to="/" exact>
+                <ListItem button>
+                <ListItemIcon>
+                    <HomeIcon />
+                </ListItemIcon>
+                <ListItemText primary="Home Section" />
+                </ListItem>  
+            </NavLink>
+            <NavLink to="/planning" exact>
+                <ListItem button>
+                <ListItemIcon>
+                    <NoteIcon />
+                </ListItemIcon>
+                <ListItemText primary="Planning Section" />
+                </ListItem>  
+            </NavLink>
+            <NavLink to="/submission" exact>      
+                <ListItem button>
+                <ListItemIcon>
+                    <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary="Submission Section" />
+                </ListItem>
+            </NavLink>
+            <NavLink to="/report" exact>
+                <ListItem button>
+                <ListItemIcon>
+                    <StarIcon />
+                </ListItemIcon>
+                <ListItemText primary="Report Section" />
+                </ListItem>
+            </NavLink>
+        </div>
+    </Drawer>      
 )};
 
 
