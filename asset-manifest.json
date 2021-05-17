@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/muskan/static/css/main.d3eddbfb.chunk.css",
-    "main.js": "/muskan/static/js/main.9574940d.chunk.js",
-    "main.js.map": "/muskan/static/js/main.9574940d.chunk.js.map",
+    "main.js": "/muskan/static/js/main.1b4dfc34.chunk.js",
+    "main.js.map": "/muskan/static/js/main.1b4dfc34.chunk.js.map",
     "runtime-main.js": "/muskan/static/js/runtime-main.a2a3b8bb.js",
     "runtime-main.js.map": "/muskan/static/js/runtime-main.a2a3b8bb.js.map",
     "static/js/2.31b0edad.chunk.js": "/muskan/static/js/2.31b0edad.chunk.js",
     "static/js/2.31b0edad.chunk.js.map": "/muskan/static/js/2.31b0edad.chunk.js.map",
     "index.html": "/muskan/index.html",
-    "precache-manifest.fa67186e494b9ddf0c0553257fa43721.js": "/muskan/precache-manifest.fa67186e494b9ddf0c0553257fa43721.js",
+    "precache-manifest.c49c1166ab50c4af18e90fc4a6a53466.js": "/muskan/precache-manifest.c49c1166ab50c4af18e90fc4a6a53466.js",
     "service-worker.js": "/muskan/service-worker.js",
     "static/css/main.d3eddbfb.chunk.css.map": "/muskan/static/css/main.d3eddbfb.chunk.css.map",
     "static/js/2.31b0edad.chunk.js.LICENSE.txt": "/muskan/static/js/2.31b0edad.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a2a3b8bb.js",
     "static/js/2.31b0edad.chunk.js",
     "static/css/main.d3eddbfb.chunk.css",
-    "static/js/main.9574940d.chunk.js"
+    "static/js/main.1b4dfc34.chunk.js"
   ]
 }
