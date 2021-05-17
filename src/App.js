@@ -19,12 +19,12 @@ function App() {
     <Router>
       <Dashboard/>
       <Switch>
-        <Route path="/report" exact component={Report} count={count} />
-        <Route path="/signup" exact component={SignupShreya} />
-        <Route path="/login" exact component={LoginShreya} />
-        <Route path="/submission" exact component={SubmissionSection} setCount={setCount} count={count} />
-        <Route path="/planning" exact component={PlanningSection} />
-        <Route path="/" exact component={Homepage} />
+        <Route path="/muskan/report" exact component={Report} count={count} />
+        <Route path="/muskan/signup" exact component={SignupShreya} />
+        <Route path="/muskan/login" exact component={LoginShreya} />
+        <Route path="/muskan/submission" exact component={SubmissionSection} setCount={setCount} count={count} />
+        <Route path="/muskan/planning" exact component={PlanningSection} />
+        <Route path="/muskan" exact component={Homepage} />
         <Route render={() => <h1>Error! 404, Not found</h1>}/>
       </Switch>
     </Router>

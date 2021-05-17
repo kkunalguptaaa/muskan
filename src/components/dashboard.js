@@ -70,7 +70,7 @@ export default function Dashboard() {
         >
         <Toolbar />
         <div className={classes.drawerContainer}>
-            <NavLink to="/login" exact>
+            <NavLink to="/muskan/login" exact>
                 <ListItem button>
                 <ListItemIcon>
                     <PersonIcon />
@@ -78,7 +78,7 @@ export default function Dashboard() {
                 <ListItemText primary="Login " />
                 </ListItem>
             </NavLink>
-            <NavLink to="/signup" exact>
+            <NavLink to="/muskan/signup" exact>
                 <ListItem button>
                 <ListItemIcon>
                     <PersonIcon />
@@ -86,7 +86,7 @@ export default function Dashboard() {
                 <ListItemText primary="Signup " />
                 </ListItem>
             </NavLink>
-            <NavLink to="/" exact>
+            <NavLink to="/muskan" exact>
                 <ListItem button>
                 <ListItemIcon>
                     <HomeIcon />
@@ -94,7 +94,7 @@ export default function Dashboard() {
                 <ListItemText primary="Home Section" />
                 </ListItem>  
             </NavLink>
-            <NavLink to="/planning" exact>
+            <NavLink to="/muskan/planning" exact>
                 <ListItem button>
                 <ListItemIcon>
                     <NoteIcon />
@@ -102,7 +102,7 @@ export default function Dashboard() {
                 <ListItemText primary="Planning Section" />
                 </ListItem>  
             </NavLink>
-            <NavLink to="/submission" exact>      
+            <NavLink to="/muskan/submission" exact>      
                 <ListItem button>
                 <ListItemIcon>
                     <InboxIcon />
@@ -110,7 +110,7 @@ export default function Dashboard() {
                 <ListItemText primary="Submission Section" />
                 </ListItem>
             </NavLink>
-            <NavLink to="/report" exact>
+            <NavLink to="/muskan/report" exact>
                 <ListItem button>
                 <ListItemIcon>
                     <StarIcon />
