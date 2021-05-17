@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/muskan/precache-manifest.89655adf3bb767c5bc700e24d9e61590.js"
+  "/muskan/precache-manifest.fa67186e494b9ddf0c0553257fa43721.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/muskan/static/css/main.d3eddbfb.chunk.css",
-    "main.js": "/muskan/static/js/main.2e77558a.chunk.js",
-    "main.js.map": "/muskan/static/js/main.2e77558a.chunk.js.map",
+    "main.js": "/muskan/static/js/main.9574940d.chunk.js",
+    "main.js.map": "/muskan/static/js/main.9574940d.chunk.js.map",
     "runtime-main.js": "/muskan/static/js/runtime-main.a2a3b8bb.js",
     "runtime-main.js.map": "/muskan/static/js/runtime-main.a2a3b8bb.js.map",
-    "static/js/2.12b2bab7.chunk.js": "/muskan/static/js/2.12b2bab7.chunk.js",
-    "static/js/2.12b2bab7.chunk.js.map": "/muskan/static/js/2.12b2bab7.chunk.js.map",
+    "static/js/2.31b0edad.chunk.js": "/muskan/static/js/2.31b0edad.chunk.js",
+    "static/js/2.31b0edad.chunk.js.map": "/muskan/static/js/2.31b0edad.chunk.js.map",
     "index.html": "/muskan/index.html",
-    "precache-manifest.89655adf3bb767c5bc700e24d9e61590.js": "/muskan/precache-manifest.89655adf3bb767c5bc700e24d9e61590.js",
+    "precache-manifest.fa67186e494b9ddf0c0553257fa43721.js": "/muskan/precache-manifest.fa67186e494b9ddf0c0553257fa43721.js",
     "service-worker.js": "/muskan/service-worker.js",
     "static/css/main.d3eddbfb.chunk.css.map": "/muskan/static/css/main.d3eddbfb.chunk.css.map",
-    "static/js/2.12b2bab7.chunk.js.LICENSE.txt": "/muskan/static/js/2.12b2bab7.chunk.js.LICENSE.txt"
+    "static/js/2.31b0edad.chunk.js.LICENSE.txt": "/muskan/static/js/2.31b0edad.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a2a3b8bb.js",
-    "static/js/2.12b2bab7.chunk.js",
+    "static/js/2.31b0edad.chunk.js",
     "static/css/main.d3eddbfb.chunk.css",
-    "static/js/main.2e77558a.chunk.js"
+    "static/js/main.9574940d.chunk.js"
   ]
 }
