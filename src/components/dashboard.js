@@ -10,7 +10,7 @@ import ListItem from '@material-ui/core/ListItem';
 import Toolbar from '@material-ui/core/Toolbar';
 import Drawer from '@material-ui/core/Drawer';
 import { makeStyles } from '@material-ui/core/styles';
-import { Route,NavLink  } from "react-router-dom";
+import {Route,NavLink  } from "react-router-dom";
 import "./dashboard.css";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -119,7 +119,7 @@ export default function Dashboard() {
                 </ListItem>
             </NavLink>
         </div>
-    </Drawer>      
+    </Drawer>    
 )};
 
 
