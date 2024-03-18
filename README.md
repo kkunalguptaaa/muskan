@@ -1,6 +1,5 @@
 # muskan
-# Setup:-
-# run command:
+# Setup - run command:
 - npm i (to install npm packages.)
 - npm start (to start the project at port 3000)
 # PPT LINK
