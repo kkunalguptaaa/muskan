@@ -1,4 +1,4 @@
-# muskan
+# Muskan
 # Setup - run command:
 - npm i (to install npm packages.)
 - npm start (to start the project at port 3000)
